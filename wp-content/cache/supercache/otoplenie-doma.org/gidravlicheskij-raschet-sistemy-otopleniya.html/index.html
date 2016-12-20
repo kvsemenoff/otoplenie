@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Гидравлический расчет системы отопления, сопротивление, испытание, пример и программа</title>
+<meta name="robots" content="noodp,noydir"/>
+<meta name="description" content="Гидравлический расчет системы отопления. Предназначение, необходимые исходные данные и результат гидравлического расчета."/>
+<meta name="keywords" content="гидравлический расчет системы отопления программа сопротивление"/>
+<link rel="canonical" href="http://otoplenie-doma.org/gidravlicheskij-raschet-sistemy-otopleniya.html" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Гидравлический расчет системы отопления, сопротивление, испытание, пример и программа" />
+<meta property="og:description" content="Гидравлический расчет системы отопления. Предназначение, необходимые исходные данные и результат гидравлического расчета." />
+<meta property="og:url" content="http://otoplenie-doma.org/gidravlicheskij-raschet-sistemy-otopleniya.html" />
+<meta property="og:site_name" content="Отопление дома" />
+<meta property="article:section" content="Обслуживание систем отопления" />
+<meta property="article:published_time" content="2014-07-13T20:36:28+00:00" />
+<meta property="article:modified_time" content="2014-07-13T20:39:07+00:00" />
+<meta property="og:updated_time" content="2014-07-13T20:39:07+00:00" />
+<meta property="og:image" content="http://otoplenie-doma.org/wp-content/uploads/2014/07/raschet2.gif" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="Гидравлический расчет системы отопления. Предназначение, необходимые исходные данные и результат гидравлического расчета."/>
+<meta name="twitter:title" content="Гидравлический расчет системы отопления, сопротивление, испытание, пример и программа"/>
+<meta name="twitter:domain" content="Отопление дома"/>
+<meta name="twitter:image:src" content="http://otoplenie-doma.org/wp-content/uploads/2014/07/raschet2.gif"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/otoplenie-doma.org\/","name":"\u041e\u0442\u043e\u043f\u043b\u0435\u043d\u0438\u0435 \u0434\u043e\u043c\u0430"}</script>
+<link rel='stylesheet' id='yarppWidgetCss-css'  href='http://otoplenie-doma.org/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=4.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://otoplenie-doma.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://otoplenie-doma.org/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://otoplenie-doma.org/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://otoplenie-doma.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://otoplenie-doma.org/wp-content/themes/otoplenie/style.css" type="text/css" media="screen" />
+<link href="https://plus.google.com/117066684890485410859" rel="publisher" />
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+</head>
+<body>
+<div id="page">
+	<div id="header">
+       
+	<div id="headerimg">
+      <div id="inheaderimg">
+                <span id="ajax-logo"></span>    
+            
+              
+       <p id="slogan">Современные системы отопления</p>	
+		</div>
+        
+        <div id="HeaderSearch"><div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://otoplenie-doma.org/poisk-po-sajtu-otoplenie-doma-org/','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по сайту otoplenie-doma.org','suggest':true,'target':'_self','tld':'ru','type':2,'usebigdictionary':true,'searchid':2143867,'webopt':false,'websearch':false,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту otoplenie-doma.org','input_placeholderColor':'#000000','input_borderColor':'#006DB5'}"><form action="http://yandex.ru/sitesearch" method="get" target="_self"><input type="hidden" name="searchid" value="2143867"/><input type="hidden" name="l10n" value="ru"/><input type="hidden" name="reqenc" value=""/><input type="text" name="text" value=""/><input type="submit" value="Найти"/></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script></div>
+     
+      </div>
+	</div>
+    <div class="clear"></div>
+    <!--/header -->  <div id="main">
+	<div id="content">
+    <div>
+    <p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://otoplenie-doma.org" rel="v:url" property="v:title">Otoplenie-Doma.org</a> » <span rel="v:child" typeof="v:Breadcrumb"><a href="http://otoplenie-doma.org/category/obsluzhivanie-sistem-otopleniya" rel="v:url" property="v:title">Обслуживание систем отопления</a> » <span rel="v:child" typeof="v:Breadcrumb"><a href="http://otoplenie-doma.org/category/obsluzhivanie-sistem-otopleniya/proektirovanie-i-raschet" rel="v:url" property="v:title">Проектирование и расчет</a> » <span class="breadcrumb_last">Гидравлический расчет системы отопления</span></span></span></span></span></p>    </div>
+			    
+		<div class="post">
+			<div class="entry">
+        <h1>Гидравлический расчет системы отопления</h1>
+            <div class="rekl">
+            <!-- Яндекс.Директ -->
+            <script type="text/javascript">
+            yandex_partner_id = 136856;
+            yandex_stat_id = 999;
+            yandex_site_bg_color = 'FFFFFF';
+            yandex_ad_format = 'direct';
+            yandex_font_size = 1.2;
+            yandex_font_family = 'tahoma';
+            yandex_direct_type = 'flat';
+            yandex_direct_border_type = 'ad';
+            yandex_direct_limit = 2;
+            yandex_direct_title_font_size = 3;
+            yandex_direct_links_underline = true;
+            yandex_direct_title_color = 'FF0000';
+            yandex_direct_border_color = 'FEEBC8';
+            yandex_direct_url_color = '000000';
+            yandex_direct_text_color = '000000';
+            yandex_direct_hover_color = '006DB5';
+            yandex_direct_favicon = true;
+            yandex_no_sitelinks = true;
+            document.write('<scr'+'ipt type="text/javascript" src="//an.yandex.ru/system/context.js"></scr'+'ipt>');
+            </script>
+          </div>      
+			<div class="soderz">
+<ul class="a_menu">
+<li><a href="#h2_0">Для чего он нужен?</a></li>
+<li><a href="#h2_1">Пример расчета гидравлики отопления</a></li>
+<li><a href="#h2_2">Использование программ</a></li>
+</ul>
+</div>
+<p><span id="more-1912"></span>В последнее время автономная отопительная система становится все более востребованной. Большинство владельцев квартир отказываются от централизованного отопления, считая индивидуальную систему более надежной и качественной. При этом довольно часто основной причиной выбора именно автономной системы отопления становится ее доступность и экономичность. Конечно, изначально на приобретение необходимого оборудования и монтаж системы придутся потратиться. Однако все затраты окупаются довольно быстро, поскольку в дальнейшем обслуживание такой системы обходится значительно дешевле, чем ежемесячная оплата централизованного отопления. Конечно, экономичность автономной системы достигается только в том случае, если она была правильно подобрана и установлена. В связи с этим огромное значение приобретает гидравлический расчет системы отопления, который необходимо проводить заранее.</p>
+<div id="attachment_2567" style="width: 630px" class="wp-caption aligncenter"><img class="size-full wp-image-2567 " title="Схема автономного отопления квартиры " alt="гидравлический расчет системы отопления" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/ustanovka-individualnogo-otoplenija-v-kvartire.jpg" width="620" height="413" /><p class="wp-caption-text">Схема автономного отопления квартиры</p></div>
+<h2 id="h2_0">Для чего он нужен?</h2>
+<p class="clear">
+<p>Прежде всего, следует понимать, что старая программа контроля функционирования отопительной системы значительно отличается от современной именно по причине различного осуществления гидравлического режима. Помимо этого, современные отопительные системы отличаются использованием более качественных материалов и технологий монтажа – что также отображается на их себестоимости и экономичности. Более того, современная система позволяет совершать контроль на всех этапах и замечает даже незначительное колебание температуры.</p>
+<div id="attachment_2566" style="width: 610px" class="wp-caption aligncenter"><img class=" wp-image-2566 " title=" Аксонометрическая схема системы отопления коттеджа - первые этап гидравлического расчета " alt="гидравлический расчет системы отопления программа" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/7748-497x700.gif" width="600" height="800" /><p class="wp-caption-text">Аксонометрическая схема системы отопления коттеджа &#8211; первые этап гидравлического расчета</p></div>
+<p>Можно сделать простой вывод: применение более качественной, модернизированной современной системы позволяет значительно снизить уровень энергопотребления, что, в свою очередь, ведет к повышению экономичности системы. Однако не следует самостоятельно монтировать отопительную систему, поскольку этот процесс требует специальных знаний и навыков. В частности, нередко проблемы возникают из-за неправильно установленного каркаса и отказа от проведения гидравлического расчета системы отопления. Что же важно учитывать при монтаже системы:</p>
+<ul>
+<li>только в случае правильно выполненного монтажа будет осуществляться равномерная подача теплоносителя ко всем элементам системы. А этот показатель – залог равновесия между регулярно изменяющейся температурой воздуха снаружи и внутри помещения.</li>
+<li>минимализация затрат на эксплуатацию системы (в особенности – топливной) приводит к тому, что значительно снижается гидравлическое сопротивление системы отопления.</li>
+<li>чем больше диаметр используемых труб – тем выше будет себестоимость отопительной системы.</li>
+<li>система должна быть не только надежной и качественно установленной. Важным фактором является и ее бесшумность.</li>
+</ul>
+<p>Какую информацию получаем после того, как сделан гидравлический расчет отопления:</p>
+<ul>
+<li>диаметр труб, применимый на различных участках системы для ее максимально эффективной работы;</li>
+<li>гидравлическая устойчивость системы отопления в разных сегментах отопительной системы;</li>
+<li>тип гидравлической связки трубопровода. В некоторых случаях для достижения максимального равновесия отдельных процессов используется специальный каркас.</li>
+<li>расход и давление теплоносителя во время циркуляции в отопительной системе.</li>
+</ul>
+<p>Конечно, расчет гидравлического сопротивления системы отопления является довольно затратным процессом. Однако следует учитывать то, что правильность его проведения дает возможность получения максимально точной информации, необходимой для создания качественной отопительной системы. Поэтому наиболее правильным является привлечение специалиста, а не попытка произвести данный расчет самостоятельно.</p>
+<div id="attachment_2568" style="width: 630px" class="wp-caption aligncenter"><img class="size-full wp-image-2568 " title="Пример рабочей схемы в программе при выполнении гидравлического расчета" alt="гидравлическое сопротивление системы отопления" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/raschet1.gif" width="620" height="350" /><p class="wp-caption-text">Пример рабочей схемы в программе при выполнении гидравлического расчета</p></div>
+<p>Перед тем, как будет проведен гидравлический расчет системы отопления онлайн, следует получить такие данные:</p>
+<ul>
+<li>равновесие показателей тепла во всех помещениях, которые необходимо будет отапливать;</li>
+<li>наиболее подходящий тип отопительных приборов, прорисовать на предварительном плане отопительной системы их детальное расположение;</li>
+<li>определение типа и диаметра используемых для монтажа системы труб;</li>
+<li>разработка плана запорного и направляющего каркасов. Помимо этого, важно до мелочей продумать расположение в системе всех элементов – от генераторов тепла до вентилей, стабилизаторов давления и датчиков контроля уровня температуры теплоносителя;</li>
+<li>создание максимально детального плана системы, на котором будут указаны все ее элементы, а также длина и нагрузка сегментов;</li>
+<li>определить расположение замкнутого контура.</li>
+</ul>
+<div id="attachment_2570" style="width: 705px" class="wp-caption aligncenter"><img class="wp-image-2570 " title="Пример таблицы с полученными данными гидравлического расчета" alt="гидравлическое испытание системы отопления" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/tabl-700x380.gif" width="695" height="380" /><p class="wp-caption-text">Пример таблицы с полученными данными гидравлического расчета</p></div>
+<h2 id="h2_1">Пример расчета гидравлики отопления</h2>
+<p class="clear">
+<p>Приведем пример гидравлического расчета системы отопления. Возьмем отдельный участок трубопровода, на котором наблюдается стабильная теплопотеря. Диаметр труб не меняется.</p>
+<p>Определить этот участок следует, основываясь на данных о тепловом балансе помещения, в котором он находится. Важно помнить – нумерация участков начинается от источника тепла. Помечаем связующие узлы, присутствующие на подающем участке магистрали прописными буквами.</p>
+<div id="attachment_2569" style="width: 630px" class="wp-caption aligncenter"><img class=" wp-image-2569 " title="Принципиальная схема отопления " alt="гидравлический расчет отопления" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/raschet2.gif" width="620" height="510" /><p class="wp-caption-text">Принципиальная схема отопления</p></div>
+<p>В случае если на магистрали присутствуют узлы – их следует пометить небольшим штрихом. Используем арабские цифры для определения узловых точек, которые присутствуют в участках ответвления. При горизонтальной отопительной системе каждая из точек соответствует номеру этажа здания. В случае применения вертикальной системы значение точки соответствует значению стояка. Узлы, в которых происходит сбор потока, также следует отмечать штрихами. Следует отметить, что номера непременно должны состоять из двух цифр. Первая из них означает начало участка, ну а вторая, соответственно, – конец.</p>
+<blockquote><p>В случае применения вертикальной системы нумерацию стояков следует проводить арабскими цифрами, следуя при этом по часовой стрелке.</p></blockquote>
+<p>Для определения протяженности всех участков трубопровода следует использовать предварительно составленную детальную план-смету. При ее  создании следует придерживаться точности 0,1 м. При этом тепловой поток участка, в котором происходят вычисления, равен тепловой нагрузке, отдаваемой теплоносителем в данном сегменте системы.</p>
+<div id="attachment_1915" style="width: 643px" class="wp-caption aligncenter"><img class="size-full wp-image-1915 " title="Показатели гидравлического расчета расчетногоциркуляционного контура с учетом потерь давления на местные сопротивления на участках." alt="гидравлический расчет системы отопления excel" src="http://otoplenie-doma.org/wp-content/uploads/2014/06/tabloca-rascheta-teplovogo-potoka.jpg" width="633" height="463" /><p class="wp-caption-text">Показатели гидравлического расчета расчетного циркуляционного контура с учетом потерь давления на местные сопротивления на участках</p></div>
+<h2 id="h2_2">Использование программ</h2>
+<p class="clear">
+<p>В процессе моделирования новой постройки, наиболее рациональным является использование специальной программы, которая максимально точно определяет тепловые и гидравлические характеристики будущей отопительной системы. А можно использовать программу excel. При этом программа предоставляет такие данные:</p>
+<ul>
+<li>необходимый диаметр трубопровода;</li>
+<li>размер отопительных устройств;</li>
+<li>тип регулирования вентилей балансировки;</li>
+<li>уровень настройки регулировочных вентилей;</li>
+<li>уровень предварительного регулирования термостатических клапанов;</li>
+<li>настройку датчиков колебания давления в системе.</li>
+</ul>
+<p class="video"><iframe src="//www.youtube.com/embed/H2EXcplDp5A" height="480" width="640" allowfullscreen="" frameborder="0"></iframe></p>
+<p>Конечно же, непосвященному пользователю будет крайне сложно провести самостоятельно расчет и гидравлическое испытание системы отопления. Наиболее правильным вариантом является обращение к специалисту, который имеет достаточный опыт в данной сфере. В случае, когда возможности привлечения профессионала нет, следует внимательно ознакомиться с методической литературой, в которой максимально детально описывается процесс проведения гидравлического расчета.</p>
+          <div class="rekl">
+            <script type="text/javascript">
+                    yandex_partner_id = 136856;
+                    yandex_site_bg_color = 'FFFFFF';
+                    yandex_stat_id = 50;
+                    yandex_ad_format = 'direct';
+                    yandex_font_size = 1.2;
+                    yandex_direct_type = 'flat';
+                    yandex_direct_border_type = 'ad';
+                    yandex_direct_limit = 4;
+                    yandex_direct_title_font_size = 3;
+                    yandex_font_family = 'arial';
+                    yandex_direct_title_color = 'FF0000';
+                    yandex_direct_border_color = 'FEEBC8';
+                    yandex_direct_url_color = '000000';
+                    yandex_direct_text_color = '333333';
+                    yandex_direct_hover_color = '0FACEA';
+                    yandex_direct_favicon = true;
+                    yandex_no_sitelinks = false;
+                    document.write('<scr'+'ipt type="text/javascript" src="//an.yandex.ru/system/context.js"></scr'+'ipt>');
+            </script>
+          </div>  
+			</div>
+                  <div class="clear"></div>
+          <noindex>          <div id="social">
+            <div id="socialText">Поделись с друзьями в социальных сетях!</div>
+            <div class="social">
+                    <div
+                    class="yashare-auto-init"
+                    data-yashareLink=""
+                    data-yashareL10n="ru"
+                    data-yashareType="big"
+                    data-yashareQuickServices="vkontakte,facebook,twitter,moimir"
+                    data-yashareTheme="counter"
+                    ></div>    
+            </div> 
+          </div>
+          </noindex>          <div class="clear"></div>
+           <div class='yarpp-related'>
+<h3></h3>
+<div class="yarpp-thumbnails-horizontal">
+<a class='yarpp-thumbnail' href='http://otoplenie-doma.org/raschet-sistemy-otopleniya.html' title='Расчет системы отопления'>
+<img width="120" height="120" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/online-mortgage-calculator-120x120.jpg" class="attachment-yarpp-thumbnail wp-post-image" alt="online-mortgage-calculator" /><span class="yarpp-thumbnail-title">Расчет системы отопления</span></a>
+<a class='yarpp-thumbnail' href='http://otoplenie-doma.org/raschet-otopleniya.html' title='Расчет отопления'>
+<img width="120" height="120" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/raschet-120x120.jpg" class="attachment-yarpp-thumbnail wp-post-image" alt="raschet" /><span class="yarpp-thumbnail-title">Расчет отопления</span></a>
+<a class='yarpp-thumbnail' href='http://otoplenie-doma.org/raschet-otopleniya-chastnogo-doma.html' title='Расчет отопления частного дома'>
+<img width="120" height="120" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/sistemi_otopleniya-120x120.jpg" class="attachment-yarpp-thumbnail wp-post-image" alt="sistemi_otopleniya" /><span class="yarpp-thumbnail-title">Расчет отопления частного дома</span></a>
+<a class='yarpp-thumbnail' href='http://otoplenie-doma.org/raschet-otopleniya-v-mnogokvartirnom-dome.html' title='Расчет отопления в многоквартирном доме'>
+<img width="120" height="120" src="http://otoplenie-doma.org/wp-content/uploads/2014/05/otopl_mnogoetaznogo_2-120x120.jpg" class="attachment-yarpp-thumbnail wp-post-image" alt="otopl_mnogoetaznogo_2" /><span class="yarpp-thumbnail-title">Расчет отопления в многоквартирном доме</span></a>
+<a class='yarpp-thumbnail' href='http://otoplenie-doma.org/raschet-teplovoj-energii-na-otoplenie.html' title='Расчет тепловой энергии на отопление'>
+<img width="120" height="120" src="http://otoplenie-doma.org/wp-content/uploads/2014/07/raschet-sektsi-radiatorov-otopleniya-120x120.jpg" class="attachment-yarpp-thumbnail wp-post-image" alt="raschet-sektsi-radiatorov-otopleniya" /><span class="yarpp-thumbnail-title">Расчет тепловой энергии на отопление</span></a>
+</div>
+</div>
+     
+          <div class="clear"></div>
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- otoplenie-netboard -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:580px;height:400px"
+                 data-ad-client="ca-pub-7071017073406853"
+                 data-ad-slot="7514615572"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+          <div class="clear"></div>
+          <div class="vkComments">
+            <!-- Put this script tag to the <head> of your page -->
+            <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+
+            <script type="text/javascript">
+              VK.init({apiId: 4530830, onlyWidgets: true});
+            </script>
+
+            <!-- Put this div tag to the place, where the Comments block will be -->
+            <div id="vk_comments"></div>
+            <script type="text/javascript">
+            VK.Widgets.Comments("vk_comments", {limit: 10, width: "725", attach: "graffiti,photo,video,audio"});
+            </script>
+          </div>
+          <div class="clear"></div>
+           
+		</div>
+        
+      	     
+	</div><!--/content -->
+        <div id="sidebar">
+              <div class="vkcomSide">
+            <!-- VK Widget -->
+            <div id="vk_groups"></div>
+            <script type="text/javascript">
+            VK.Widgets.Group("vk_groups", {mode: 0, width: "215", height: "250", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 76403901);
+            </script>
+       </div>
+                            <div id="ajax-left-menu"></div>
+           	</div>
+	<!--/sidebar -->
+ </div><!--/main -->
+
+	<div id="footer">
+      <div id="infooter">
+		        <div class="left-col">
+			       <img src="http://otoplenie-doma.org/wp-content/themes/otoplenie/images/logo.png" alt="Отопление дома" title="Отопление дома" height="55" />
+			       <p>Отопление дома - это просто</p>    
+                  <p>© «Otoplenie-Doma.org», 2015</p>
+		        </div>
+		        <!--noindex-->
+                <div class="left-col2">
+                <p>© 2015 Копирование материалов возможно только с указанием активной, не закрытой от индексации ссылки, на источник.</p>
+                                     <div id="footer-links"></div>
+                    
+                                                        <ul>
+                        <li><a href="/karta-sajta-otoplenie-doma-org" title="Карта сайта">Карта сайта</a></li>
+                   </ul>
+                                    <div id="li">
+               <!--LiveInternet counter--><script type="text/javascript"><!--
+                document.write("<a href='http://www.liveinternet.ru/click' "+
+                "target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
+                escape(document.referrer)+((typeof(screen)=="undefined")?"":
+                ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+                screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+                ";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+                "' alt='' title='LiveInternet' "+
+                "border='0' width='31' height='31'><\/a>")
+                //--></script><!--/LiveInternet-->
+          </div>                 
+		        </div>
+                <!--/noindex-->
+		        <div class="right-col">
+                  
+             </div>   
+		        
+               
+		        <hr class="clear" />
+        <div id="metrika">
+            <!-- Yandex.Metrika counter -->
+            <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter24704465 = new Ya.Metrika({id:24704465,
+                                webvisor:true,
+                                clickmap:true,
+                                trackLinks:true,
+                                accurateTrackBounce:true});
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+            </script>
+            <noscript><div><img src="//mc.yandex.ru/watch/24704465" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <!-- /Yandex.Metrika counter -->
+        </div>
+        <div id="mailru">
+        <!-- Rating@Mail.ru counter -->
+        <script type="text/javascript">
+        var _tmr = _tmr || [];
+        _tmr.push({id: "2503645", type: "pageView", start: (new Date()).getTime()});
+        (function (d, w) {
+           var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+           ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+           var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+           if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+        })(document, window);
+        </script><noscript><div style="position:absolute;left:-10000px;">
+        <img src="//top-fwz1.mail.ru/counter?id=2503645;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+        </div></noscript>
+        <!-- //Rating@Mail.ru counter -->
+        </div> 
+        <div id="ga">
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-50126187-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        </div>   
+       
+                
+               </div><!--/infooter --> 
+              
+	        </div><!--/footer -->
+
+<link rel='stylesheet' id='yarppRelatedCss-css'  href='http://otoplenie-doma.org/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=4.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='yarpp-thumbnails-yarpp-thumbnail-css'  href='http://otoplenie-doma.org/wp-content/plugins/yet-another-related-posts-plugin/includes/styles_thumbnails.css.php?width=120&#038;height=120&#038;ver=4.2.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://otoplenie-doma.org/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/otoplenie-doma.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"\u041e\u0442\u043f\u0440\u0430\u0432\u043a\u0430...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://otoplenie-doma.org/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.1'></script>
+    
+<script type="text/javascript" src="http://otoplenie-doma.org/wp-content/themes/otoplenie/js/ajax.js"></script>
+<script src="//yandex.st/share/cnt.share.js"></script>
+</div>
+<!--/page -->
+</body>
+</html>
+<!-- Dynamic page generated in 0.081 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-04-24 09:10:06 -->
+
+<!-- super cache -->

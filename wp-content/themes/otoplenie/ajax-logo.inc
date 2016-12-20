@@ -1,0 +1,1 @@
+<a href="/" title="Отопление дома"><img src="/wp-content/themes/otoplenie/images/logo.png" alt="Отопление" title="Отопление"  /></a>
