@@ -1066,14 +1066,14 @@ ul.sub-menu {
 }
 
 .menuTop { background: #006db5; overflow: hidden;}
-#menu-top { margin: 0; padding: 0; }
+#menu-top { margin: 0; padding: 0; text-align:center;}
 #menu-top .currentNav { margin: 0; padding: 0; color: #e3410c; font-size: 16px; text-transform: uppercase;}
 #menu-top li { list-style: none; display: inline-block; margin: 0 15px 0 5px;}
 #menu-top li a { color: #fff; font-size: 16px; text-transform: uppercase;}
 #menu-top li a:link { text-decoration: none;}
 #menu-top li a:visited { text-decoration: none;}
 #menu-top li a:hover { text-decoration: underline;}
-.menu-top-container { margin: 0 auto; width: 1000px;}
+.menu-top-container {}
 .reklbrand {margin-bottom: 30px;}
 .h1Brand { text-transform: uppercase; font-weight: bold; font-size: 30px;}
 .brands h2 {margin: 15px 0 0 0; text-transform: uppercase; font-weight: bold;}
@@ -1201,16 +1201,31 @@ ul.sub-menu {
 
 @media only screen and (min-width : 768px) {
 	
+
+#headerimg {
+	width: 1000px;
+    margin: 0 auto;
+   
+}
+#inheaderimg {  
+   width:unset;
+}
+
+
+
+
 }
 
 @media only screen and (min-width : 992px) {
-	
+	.menu-top-container { margin: 0 auto; width: 1000px;}
+	#menu-top { text-align:left;}
 
 }
 
 
 	
 @media only screen and (min-width : 1248px) {
+	
 }
 
 
