@@ -1,6 +1,6 @@
 <?php get_header(); ?>
    <div id="main">
-    <div id="content">
+    <div id="content-cat>
     <div>
     <?php if ( function_exists('yoast_breadcrumb') ) {
     yoast_breadcrumb('<p id="breadcrumbs">','</p>');

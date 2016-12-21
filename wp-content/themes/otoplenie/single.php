@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <div id="main" class="sing">
-	<div id="content">
-    <div>
+	<div id="content-single">
+   <div>
     <?php if ( function_exists('yoast_breadcrumb') ) {
     yoast_breadcrumb('<p id="breadcrumbs">','</p>');
     } ?>
