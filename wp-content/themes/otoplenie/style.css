@@ -435,7 +435,7 @@ ul {
 }
 
 #infooter {
-  // width: 1000px;
+  
    margin: 0 auto;
    padding: 5px 0; 
 }
@@ -458,12 +458,12 @@ ul {
 
 #footer .left-col {
 	text-align: center;
-	//float: left;
+	
 	margin-left: 10px;
 }
 
 .left-col2 {
-  // width: 700px;
+
    float: left;
    padding: 0 0 0 15px; //40
 }
@@ -1246,20 +1246,26 @@ ul.sub-menu {
 
 
 		//footer
+	
 
-	#footer .left-col {
-    text-align: center;
-    float: left !important ;
-    margin-left: 10px;
+#footer .left-col {
+   float: left;
 }
 	.left-col2 {
 	  width: 700px;	   
-	   padding: 0 0 0 40px; //40
+	   padding: 5px 0 0 40px; 
 	}
 	#footer .right-col{
 		float: right;	
 	}
 
+	#footer .left-col {
+   float: left;
+}
+
+	#footer {   
+    width: 1000px;
+}
 }
 
 
