@@ -388,7 +388,8 @@ ul {
 	height: 29px;
 }
 #sidebar {
-	float: right;
+	/*float: right;*/
+	margin: 0 auto;
 	padding: 0px 10px 20px 0px;
 	width: 220px;
 	/*border: 1px solid #ccc;*/
@@ -993,7 +994,7 @@ width: 620px;  */
 
 .text_r {
 	float: left;
-	width: 550px;  
+	/*width: 550px;  */
 }
 
 .text_rBrand {
@@ -1177,7 +1178,12 @@ ul.sub-menu {
 	float: left;
 }
 
-.text_container_l { overflow: hidden; padding: 5px; border: 1px solid #006db5; border-radius: 3px;}
+.text_container_l { 
+	overflow: hidden; 
+	padding: 5px; 
+	border: 1px solid #006db5; 
+	border-radius: 3px;
+}
 .mostViewed { margin: 0 0 30px 0; overflow: hidden; display: block;}
 
 .blockViewed {
@@ -1263,6 +1269,13 @@ ul.sub-menu {
 }
 
 @media only screen and (min-width : 992px) {
+	#sidebar {
+	float: right;
+	/*margin: 0 auto;*/
+	padding: 0px 10px 20px 0px;
+	width: 220px;
+	/*border: 1px solid #ccc;*/
+}
 	.menu-top-container { margin: 0 auto; width: 1000px;}
 	#menu-top { text-align:left;}
 	.ya-site-form__form{
@@ -1298,7 +1311,7 @@ ul.sub-menu {
 		float: left !important; 
 		overflow: hidden !important;
 		padding: 10px 20px 30px !important; 
-		width: 960px !important;
+		width: 960px;
 	}
 
 	#LastPostsBox {
@@ -1384,10 +1397,19 @@ ul.sub-menu {
 	overflow: hidden; 
 	background: #FFFFFF;  
 }
+.text_r {
+	float: left;
+	width: 550px;  
+}
 }
 
 @media only screen and (min-width : 1248px) {
-
+	#content-cat{
+		width: 730px;
+		float: left ; 
+		/*overflow: hidden ;*/
+		padding: 10px 20px 30px ;
+	}
 }
 
 
