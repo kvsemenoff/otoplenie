@@ -1243,10 +1243,19 @@ ul.sub-menu {
 
 }
 
+.searchCenter{
+	width: 100%;
+}
+
+
 @media only screen and (min-width : 992px) {
 	.menu-top-container { margin: 0 auto; width: 1000px;}
 	#menu-top { text-align:left;}
-
+.ya-site-form__form{
+	width:992px;
+	margin: 0 auto;
+	
+}
 
 		//footer
 	
