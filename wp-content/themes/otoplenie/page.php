@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 <div id="main">
-	<div id="content" <?php if( is_front_page() ){?> style="float: left !important; overflow: hidden !important; padding: 10px 20px 30px !important; width: 960px !important;" <?php }?> >
+	<div id="content" <?php if( is_front_page() ){?> style="" <?php }?> >
+
+<!-- float: left !important; overflow: hidden !important; padding: 10px 20px 30px !important; width: 960px !important; -->
+
 	<?php if (have_posts()) { ?>
 		<?php while (have_posts()) { the_post(); ?>    
 		<div class="post">
